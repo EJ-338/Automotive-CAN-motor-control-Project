@@ -36,3 +36,12 @@ code. We assembled, completed, and tested the two-node prototype.
 measure RPM in this test. The phase relationship between channels A
 and B can also be used to determine rotation direction. This corrects
 the explanation of the two channels in our original report.
+
+## Arduino code
+
+- [CAN transmitter — distance sensor](CAN_Transmit_Side.ino)
+- [CAN receiver — motor and encoder](CAN_Receive_Side.ino)
+
+The receiver sketch includes a later correction to its timing and RPM
+calculation. The measurements above are from the original course project;
+the updated sketch has not been retested on hardware.
