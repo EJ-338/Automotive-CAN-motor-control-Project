@@ -1,4 +1,4 @@
-# ece4520-can-motor-control
+# Automotive-CAN-motor-control-Project
 Two-Arduino CAN project for distance-based motor speed control and collision avoidance, with encoder RPM measurement.
 
 # CAN-Based Motor Speed Control
